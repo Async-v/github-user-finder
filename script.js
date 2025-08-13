@@ -18,8 +18,6 @@ function getRepos(username){
 }
 
 function decorateProfileData(details){
-    console.log(details);
-
     let date = details.created_at
     let data = `<img 
         src="${details.avatar_url}" 
@@ -66,7 +64,6 @@ function decorateProfileData(details){
 }
 
 function latestRepo(repo){
-  console.log(repo);
   repos.innerHTML = `<h3 class="text-xl font-semibold mb-4">Latest Repositories</h3>`
   repo.forEach(elem => {
     let date = elem.updated_at
@@ -83,23 +80,6 @@ function latestRepo(repo){
     `
     repos.innerHTML += repo
   });
-
-
-
-  // let repos = `
-  //   
-  //     <!-- Repo 1 -->
-  //     <div class="bg-neutral-800 p-4 rounded-lg hover:bg-neutral-700 transition">
-  //       <a href="#" class="text-blue-400 font-semibold text-lg hover:underline">Hello-World</a>
-  //       <p class="text-gray-400 text-sm mt-1">My first repository on GitHub!</p>
-  //       <div class="flex gap-4 mt-2 text-sm text-gray-500">
-  //         <span>⭐ 150</span>
-  //         <span>🍴 30</span>
-  //         <span>Updated: Jan 2025</span>
-  //       </div>
-  //     </div>
-  //   </div>
-  // `
 }
 
 form.addEventListener("click", function(e){
@@ -113,8 +93,5 @@ form.addEventListener("click", function(e){
         getRepos(username).then(data =>{
           latestRepo(data)
         })
-    }
-    else{
-        
     }
 })
