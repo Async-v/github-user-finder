@@ -16,10 +16,9 @@ Enter any GitHub username to instantly view their profile details, stats, and la
 ---
 
 ## 🖼 Preview
-> *(Replace this with your actual screenshot)*  
 
-![GitHub User Finder Screenshot](https://github.com/async-v/github-user-finder/main/assets/img1.png)
-![GitHub User Finder Screenshot](https://github.com/async-v/github-user-finder/main/assets/img2.png)
+![GitHub User Finder Screenshot](https://github.com/async-v/github-user-lookup/main/assets/img1.png)
+![GitHub User Finder Screenshot](https://github.com/async-v/github-user-lookup/main/assets/img2.png)
 
 ---
 
