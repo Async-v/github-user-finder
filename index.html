@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub User Finder</title>
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-black min-h-screen flex flex-col items-center justify-start py-10 px-4 text-white">
+  
+  <!-- Header -->
+  <header class="text-center mb-10">
+    <h1 class="text-4xl font-bold">GitHub User Finder</h1>
+    <p class="text-gray-400 mt-2">Search and view details of any GitHub profile</p>
+  </header>
+
+  <!-- Search Form -->
+  <section class="w-full max-w-xl bg-neutral-900 rounded-2xl shadow-lg p-6">
+    <form class="form flex flex-col sm:flex-row gap-3">
+      <input 
+        type="text" 
+        placeholder="Enter GitHub username..." 
+        class="usernameinp flex-1 px-4 py-3 rounded-xl bg-neutral-800 border border-neutral-700 placeholder-gray-400 text-white focus:ring-2 focus:ring-blue-500 focus:outline-none"
+      />
+      <button 
+        type="submit" 
+        class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-xl shadow transition"
+      >
+        Search
+      </button>
+    </form>
+  </section>
+
+  <!-- User Profile Card -->
+  <section class="w-full max-w-xl mt-10 bg-neutral-900 rounded-2xl shadow-lg overflow-hidden">
+    <div class="card flex flex-col sm:flex-row items-center sm:items-start gap-6 p-6">
+
+    </div>
+  </section>
+
+   <!-- Latest Repositories -->
+  <section class="w-full max-w-xl mt-8 bg-neutral-900 rounded-2xl shadow-lg p-6">
+    <!-- <h3 class="text-xl font-semibold mb-4">Latest Repositories</h3> -->
+    <div class="repos space-y-4">
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
