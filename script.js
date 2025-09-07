@@ -18,8 +18,6 @@ function getRepos(username){
 }
 
 function decorateProfileData(details){
-    console.log(details);
-
     let date = details.created_at
     let data = `<img 
         src="${details.avatar_url}" 
