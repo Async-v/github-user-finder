@@ -17,8 +17,8 @@ Enter any GitHub username to instantly view their profile details, stats, and la
 
 ## 🖼 Preview
 
-![GitHub User lookup Screenshot](https://github.com/async-v/github-user-lookup/assets/img1.png)
-![GitHub User lookup Screenshot](https://github.com/async-v/github-user-lookup/assets/img2.png)
+![GitHub User finder Screenshot](https://github.com/Async-v/github-user-finder/blob/02830158bfdbb77b76aa88ff4dff388e42260fab/assets/img1.png)
+![GitHub User finder Screenshot](https://github.com/Async-v/github-user-finder/blob/02830158bfdbb77b76aa88ff4dff388e42260fab/assets/img2.png)
 
 ---
 
